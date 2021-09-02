@@ -1,0 +1,84 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+/*-------ESTILO DE FOOTER-------*/
+iframe{
+    width: 100%;
+}
+footer{
+    font-family: sans-serif;
+    height: 120px;;
+    border-radius: 0 0 25px 25px;
+    background: linear-gradient(to left,#ffce00,#fdb40e);
+}
+
+.botonesf{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.boton-anterior {
+    color: #fff;
+    background-color:transparent;
+    border: 2px solid #fff;
+    border-radius:15px;
+    }
+
+.boton-anterior:hover {
+    text-shadow: 1px 1px 5px #000;
+    }
+
+.boton-siguiente {
+    color:black;
+    background-color:#fff;
+    border: 2px solid #fff;
+    border-radius:15px;
+    box-shadow: 1px 1px 10px rgb(150, 148, 148);
+    }
+
+.boton-siguiente:hover {
+    text-shadow: .2px .2px .5px #000;
+    box-shadow: 1px 1px 5px #000;
+}  
+
+#footerbuttons:link {
+    text-decoration: none;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+/*-------Datos del responsable-------*/
+#formddr{
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-bottom: 15%;
+}
+.Elbori{
+    width: 90%;
+}
+.pddr{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.form-control{
+    padding: 2.5%;
+    border-radius: 10px;
+}
+.form-select{
+    padding: 3%;
+    border-radius: 10px;
+}
+#day,#month,#year{
+    padding: 5%;
+}
