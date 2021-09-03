@@ -3,7 +3,7 @@ package Model;
 public class Usuario {
 
 	public String mail;
-    public String contra;
+    public String password;
     public String tipo;
 
     public void setMail(String mail) {
@@ -12,9 +12,9 @@ public class Usuario {
     public String getMail(){return mail;}
 
     public void setContra(String contra) {
-        this.contra = contra;
+        this.password = contra;
     }
-    public String getContra(){return contra;}
+    public String getContra(){return password;}
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
